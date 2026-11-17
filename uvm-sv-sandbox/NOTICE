@@ -1,0 +1,12 @@
+uvm-sv-sandbox
+Copyright 2026 The uvm-sv-sandbox contributors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+All code in this repository was written for it, from the public IEEE 1800
+(SystemVerilog) and IEEE 1800.2 (UVM) standards. No third-party code is stored here.
+
+scripts/setup.sh downloads, at setup time and into the git-ignored third_party/ folder:
+  - the Accellera UVM reference library (IEEE 1800.2) from https://www.accellera.org
+  - optionally, Verilator from https://github.com/verilator/verilator
+Each of those keeps its own license; see the license files inside the downloads.
